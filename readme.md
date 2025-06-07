@@ -111,6 +111,7 @@ Abaixo está o código-fonte desenvolvido, que demonstra a criação de um compo
 
 </body>
 </html>
+```
 
 ---
 
@@ -134,6 +135,7 @@ $ git clone [https://github.com/SEU_USUARIO_AQUI/NOME_DO_REPOSITORIO.git](https:
 $ cd NOME_DO_REPOSITORIO
 
 # Abra o arquivo index.html no navegador
+```
 
 <hr>
 
