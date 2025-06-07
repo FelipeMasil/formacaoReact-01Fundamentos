@@ -55,7 +55,7 @@ Abaixo está o código-fonte desenvolvido, que demonstra a criação de um compo
 <body>
     <div id="root"></div>
     
-    <script src="[https://unpkg.com/@tailwindcss/browser@4](https://unpkg.com/@tailwindcss/browser@4)"></script>
+    <script src="https://unpkg.com/@tailwindcss/browser@4](https://unpkg.com/@tailwindcss/browser@4"></script>
     <script crossorigin src="[https://unpkg.com/react@18/umd/react.development.js](https://unpkg.com/react@18/umd/react.development.js)"></script>
     <script crossorigin src="[https://unpkg.com/react-dom@18/umd/react-dom.development.js](https://unpkg.com/react-dom@18/umd/react-dom.development.js)"></script>
     <script crossorigin src="[https://unpkg.com/@babel/standalone/babel.min.js](https://unpkg.com/@babel/standalone/babel.min.js)"></script>
@@ -112,13 +112,6 @@ Abaixo está o código-fonte desenvolvido, que demonstra a criação de um compo
 </body>
 </html>
 ```
-
----
-
-## ✨ Resultado Visual
-
-
-
 ---
 
 ## 🚀 Como Executar
@@ -129,10 +122,10 @@ Basta clonar o repositório e abrir o arquivo index.html diretamente em seu nave
 
 ```bash
 # Clone este repositório
-$ git clone [https://github.com/SEU_USUARIO_AQUI/NOME_DO_REPOSITORIO.git](https://github.com/SEU_USUARIO_AQUI/NOME_DO_REPOSITORIO.git)
+$ git clone [https://github.com/FelipeMasil/formacaoReact-01Fundamentos](https://github.com/FelipeMasil/formacaoReact-01Fundamentos)
 
 # Acesse o diretório
-$ cd NOME_DO_REPOSITORIO
+$ cd formacaoReact-01Fundamentos
 
 # Abra o arquivo index.html no navegador
 ```
