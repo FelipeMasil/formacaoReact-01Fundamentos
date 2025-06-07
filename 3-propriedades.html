@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rocketseat - React.js - Fundamentos</title>
+</head>
+
+<body>
+    <div id="root"></div>
+    
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script crossorigin src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <script type="text/babel">
+
+        const VariantButtonColor = {
+            default: 'bg-gray-500',
+            success: 'bg-green-500',
+        }
+
+        function Button({ children, variant='default', className, ...props }){
+            return(
+                <button className={`
+                    px-5 py-2 rounded text-white 
+                    ${VariantButtonColor[variant]}
+                    ${className}
+                    }` 
+                }
+                {...props}
+                > 
+                    { children } 
+                </button>
+            )
+        }
+
+        function App(){
+            return(
+                <main className="flex gap-1 p-3">
+                    <Button variant="success" title="Sucesso" className="mr-10">
+                        Botão
+                    </Button>
+                    <Button>
+                        Botão
+                    </Button>
+                </main>
+            )
+        }
+
+        const root = document.getElementById('root');
+        ReactDOM.createRoot(root).render(
+            <App />
+        )
+    </script>
+
+</body>
+
+</html>

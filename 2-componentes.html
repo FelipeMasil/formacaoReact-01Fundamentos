@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rocketseat - React.js - Fundamentos</title>
+</head>
+
+<body>
+    <div id="root"></div>
+    
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script crossorigin src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <script type="text/babel">
+
+        function Button(){
+            return(
+                <button 
+                className="px3 py-2 px-5 bg-purple-800 text-white rounded"
+                >
+                    Botão
+                </button>
+            )
+        }
+
+        function App(){
+            return(
+                <main className="flex gap-1 p-3">
+                    <Button />
+                    <Button />
+                    <Button />
+                </main>
+            )
+        }
+
+        const root = document.getElementById('root');
+        ReactDOM.createRoot(root).render(
+            <App />
+        )
+    </script>
+
+</body>
+
+</html>
